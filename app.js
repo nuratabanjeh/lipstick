@@ -13,3 +13,20 @@ else if (makeup === 'mascara')
  { document.write('<img src="https://cdn.cultbeauty.com/resized/876x1026/slots-img/narnars_climax_mini_1560x1960-blykzjpg"/>')}
 
  else { alert("Out of stock!")}
+
+ var FirstProduct = prompt('if you are an old costumer please name what is our first product?', 'redlipstick');
+ while (FirstProduct !== 'redlipstick') {FirstProduct = prompt("guess again")
+
+ }
+ var trys = prompt('we like to give you a lipstick gift, choose how many gifts you want "max gifts is 5"');
+                        //
+ for (var i = 1; i <= trys; i++) {
+     if(i ==5){
+         break;
+     } console.log(trys)
+    document.write(' <img src= "https://cdn.artdeco.com/media/catalog/product/cache/4592d0c5034d19e28419115cb371f311/8/9/892006cfe0c047b2b52997158cc59ed65288d983_8458d8ae_57ce_47a6_bdff_f9e2b68d2c4c-image_product_1595862459_1.jpg"/>')
+
+
+      
+ }
+ 
