@@ -21,12 +21,17 @@ else if (makeup === 'mascara')
  var trys = prompt('we like to give you a lipstick gift, choose how many gifts you want "max gifts is 5"');
                         //
  for (var i = 1; i <= trys; i++) {
-     if(i ==5){
+    console.log('i',i)
+     console.log(trys)
+    document.write(' <img src= "https://cdn.artdeco.com/media/catalog/product/cache/4592d0c5034d19e28419115cb371f311/8/9/892006cfe0c047b2b52997158cc59ed65288d983_8458d8ae_57ce_47a6_bdff_f9e2b68d2c4c-image_product_1595862459_1.jpg"/>') 
+    if(i ==6){
          break;
-     } console.log(trys)
-    document.write(' <img src= "https://cdn.artdeco.com/media/catalog/product/cache/4592d0c5034d19e28419115cb371f311/8/9/892006cfe0c047b2b52997158cc59ed65288d983_8458d8ae_57ce_47a6_bdff_f9e2b68d2c4c-image_product_1595862459_1.jpg"/>')
+     } 
+     
 
 
       
  }
+
+ 
  
