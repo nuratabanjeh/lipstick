@@ -1,4 +1,50 @@
-body{
-    background-color: #534e52;
+header{
+    background-color: #f2d974;
     margin: 0%;
+    padding: 0%;
 }
+body{
+    font-family: cursive;
+    margin: 0%;
+    background-color: #eac8af;
+}
+#veryfirst h1 { 
+    display: inline-block;
+    margin-left: 30px;
+    color: #965d62;
+
+
+}
+#veryfirst nav {
+    float: right;
+   
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: #965d62;
+    text-decoration: none;
+}
+#first{
+    background-color: #c7956d;
+    color: #965d62;
+    text-align: center;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+
+}
+#second{
+    text-align: center;
+    color: #965d62;
+}
+footer{
+    background-color: #534e52;
+    color: #965d62;
+    text-align: center;
+    padding: 5%;
+    font-size: 40px;
+}
+
