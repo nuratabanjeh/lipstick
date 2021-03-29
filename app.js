@@ -17,7 +17,7 @@ function askingforfirstproduct() {
     while (FirstProduct !== 'redlipstick') {
         FirstProduct = prompt("guess again")
 
-    }
+    }}
     askingforfirstproduct()
     function gifts() {
         var trys = prompt('we like to give you a lipstick gift, choose how many gifts you want "max gifts is 5"');
@@ -37,4 +37,3 @@ function askingforfirstproduct() {
 
     }
     gifts();
-}
